@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body style="height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background:
+        radial-gradient(ellipse at 20% 20%, #35234b 0%, transparent 70%),
+        radial-gradient(ellipse at 60% 20%, #2975bf 0%, transparent 70%),
+        radial-gradient(ellipse at 100% 20%, #3d54b1 0%, transparent 70%),
+        radial-gradient(ellipse at 100% 100%, #9f3c54 0%, transparent 70%),
+        radial-gradient(ellipse at 20% 100%, #362d6f 0%, transparent 70%);
+    background-blend-mode: screen;">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: aliceblue;">Shivendra Ojha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                            ABOUT
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="education.html">Education</a></li>
+                            <li><a class="dropdown-item" href="#">Awards and certification</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="keyskill()">Key Skills</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="language()">Language</a></li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                            SKILLS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#" onclick="proglanguage()">Programming language</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="os()">Operating System</a></li>
+                            <!-- <li> -->
+                            <!-- <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                            PROJECTS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="https://shivendraojha.github.io/Profile/">Profile</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://shivendraojha.github.io/learnhere/">Learnhere</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://shivendraojha.github.io/Calculator/">Calculator</a></li>
+
+
+
+
+
+                            <!-- <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                            CONTACT
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">9044331920</a></li>
+                            <li><a class="dropdown-item"
+                                    href="http://api.whatsapp.com/send?phone=9044331920&text=WELCOME">Whatsapp</a></li>
+                            <li><a class="dropdown-item" href="mailto:shivendraojha611@gmail.com">E-Mail</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.linkedin.com/in/shivendra-ojha-936a39258/">Linked in</a></li>
+
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- <canvas id="sky"></canvas> -->
+
+    <div id="container">
+            <div class="img">
+    <img src="me.jpg">
+
+          <h5 class="heading">Hii I am Shivendra Ojha </h5>
+          <p>I have a huge passion for web developement and programming</p>
+
+          <h2 class="HEAD">PROJECTS</h2>
+
+          <a href="https://shivendraojha.github.io/learnhere/" class="link">1) LEARNHERE</a>
+          <a href="https://shivendraojha.github.io/Snowflake/" class="link">2) SNOWFLAKE</a>
+          <a href="https://shivendraojha.github.io/Calculator/" class="link">3) CALCULATOR</a>
+          <a href="https://shivendraojha.github.io/DiwaliLight/" class="link">4) DIWALILIGHT</a>
+
+            </div>
+    </div>
+</body>
+
+</html>
