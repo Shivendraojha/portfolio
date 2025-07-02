@@ -1,0 +1,136 @@
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.hr {
+  width: 100%;
+  border: 2px white;
+}
+
+.about-container {
+  max-width:800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: aliceblue;
+  animation-name: opac;
+  animation-duration: 3s;
+
+}
+
+.profile-section {
+  text-align: center;
+  animation-name: opac;
+  animation-duration: 3s;
+  margin-left: -70px;
+}
+
+.profile-section h2 {
+  font-weight: bold;
+  font-size: 40px;
+  /* font-style: italic; */
+  letter-spacing: 4px;
+}
+
+.profile-section p {
+  margin-top: 350px;
+  font-size: 20px;
+}
+
+.profile-section img {
+  max-width: 100%;
+  float: right;
+  margin-top: 20px;
+  width: 40vw;
+  margin-right: -10vw;
+  margin-top: -130px;
+  animation-name: opac;
+  animation-duration: 1.8s;
+}
+
+.profile-section button {
+  padding: 18px 55px;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #c38812;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+
+}
+
+.profile-section button:hover {
+  background-color: #885f0c;
+  transition: background-color .3s ease;
+}
+
+.soft-skills-section {
+  margin-top: 40px;
+}
+
+.soft-skills-section ul {
+  list-style-type: \1F44D;
+  padding: 0;
+}
+
+.soft-skills-section li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+
+
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: aliceblue;
+  }
+
+  .profile-section {
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .profile-section h2 {
+    text-align: center;
+    width: 90vw;
+    /* margin-left: 0px; */
+    font-size: 7vw;
+    float: right;
+  }
+
+  .profile-section p {
+    margin-top: 05px;
+    display: inline-block;
+    text-align: center;
+    /* float: right; */
+  }
+
+  .profile-section img {
+    max-width: 97%;
+    width: 85vw;
+    margin-right: -09px;
+    margin-top: -8vh;
+  }
+
+  .soft-skills-section {
+    margin-top: 40px;
+  }
+
+  .soft-skills-section ul {
+    list-style-type: \1F44D;
+    padding: 0;
+  }
+
+  .soft-skills-section li {
+    margin-bottom: 8px;
+  }
+
+}

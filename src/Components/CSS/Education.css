@@ -1,0 +1,45 @@
+.education-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.education-list {
+  margin-top: 20px;
+}
+
+.education-entry {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 010px;
+}
+
+.education-entry h2 {
+  background-color: #c38812;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin: 0;
+}
+
+.education-entry p {
+  padding: 15px;
+  margin: 0;
+}
+
+.education-entry:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 768px){
+  .education-entry p {
+    padding: 7px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,63 @@
+.soft-skills-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.soft-skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+
+}
+
+.soft-skill {
+    background-color: #c38812;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin: unset;
+    justify-content: space-between;
+    transition: background-color .3s ease;
+}
+
+.soft-skill:hover {
+    background-color: #785309;
+}
+
+@media (max-width: 768px) {
+
+    .soft-skills-container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .soft-skills-list {
+        display: flex;
+        /* flex-wrap: wrap; */
+        gap: 10px;
+        margin-top: 20px;
+
+    }
+
+    .soft-skill {
+        background-color: #c38812;
+        color: white;
+        padding: 10px;
+        width: 100vw;
+        text-align: center;
+        border-radius: 5px;
+        cursor: grabbing;
+        transition: background-color .3s ease;
+    }
+
+    .soft-skill:hover {
+        background-color: #785309;
+    }
+
+}

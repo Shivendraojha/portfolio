@@ -1,0 +1,41 @@
+ .hobbies-container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+
+ .hobbies-list {
+     margin-top: 20px;
+ }
+
+ .hobby {
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     overflow: hidden;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     margin-bottom: 20px;
+ }
+
+ .hobby h2 {
+     background-color: #c38812;
+     color: white;
+     padding: 15px;
+     text-align: center;
+     margin: 0;
+ }
+
+ .hobby p {
+     padding: 15px;
+     margin: 0;
+     text-align: center;
+ }
+
+ .hobby:last-child {
+     margin-bottom: 0;
+ }
+
+ @media (max-width: 768px) {
+     .hobby p {
+         text-align: center;
+     }
+ }

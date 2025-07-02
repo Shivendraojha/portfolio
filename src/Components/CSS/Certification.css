@@ -1,0 +1,43 @@
+.awards-certifications-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+.awards-certifications-list {
+  margin-top: 20px;
+}
+
+.awards-certifications-entry {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.imgcert {
+  /* height: 300px;
+  align-items: center;
+  margin: auto;
+  display: block; */
+  width: 100%;
+}
+
+.awards-certifications-entry h2 {
+  background-color: #c38812;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin: 0;
+}
+
+.awards-certifications-entry p {
+  padding:  05px 0 0px 0;
+  margin: 0;
+}
+
+.awards-certifications-entry:last-child {
+  margin-bottom: 0;
+}

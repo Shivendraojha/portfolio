@@ -1,0 +1,90 @@
+.navbar {
+  position: fixed;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: white !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 0px !important;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.nav-link {
+  /* padding: 5px 15px !important;   */
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 1rem;
+  transition: color 02s ease;
+
+}
+
+.nav-link:hover {
+  color: #ffe207 !important;
+  /* font-weight: bold; */
+  /* background-color: red; */
+
+}
+
+.burger-menu {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+  width: 10vw;
+  position: absolute;
+  margin-left: 80vw;
+}
+
+/* Responsive Navbar Styles */
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 0;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  text-align: center;
+    padding: 5px 15px !important;
+    border-radius: 10%;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .mobile-menu-open .nav-links {
+    display: flex;
+  }
+
+  /* Hide the burger menu icon in mobile view */
+  .container {
+    flex-direction: column;
+  }
+
+}

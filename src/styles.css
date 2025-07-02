@@ -1,0 +1,9 @@
+
+body {
+    background: linear-gradient(45deg,#333301 ,rgb(83, 20, 2),#bdb03e ) fixed; /* Dark violet and black gradient */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Ensure horizontal overflow is hidden */
+    position: relative;
+  }
+  

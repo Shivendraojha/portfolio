@@ -1,0 +1,75 @@
+ h3 {
+   color: white !important;
+   text-align: center;
+ }
+
+ .projects-container {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+   color: white;
+
+ }
+
+ .projects-container h1 {
+   text-align: center;
+   margin-bottom: 50px;
+ }
+
+ .project-list {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   gap: 20px;
+ }
+
+ .project-card {
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   overflow: hidden;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease;
+ }
+
+ .project-card:hover {
+   transform: translateY(-5px);
+ }
+
+ .project-header {
+   background-color: #c38812;
+   color: white;
+   padding: 15px;
+   text-align: center;
+ }
+
+ .project-header h2 {
+   margin: 0;
+ }
+
+ .proimg {
+   width: 100%;
+ }
+
+ .project-content {
+   padding: 20px;
+ }
+
+ .technologies-list {
+   margin-bottom: 10px;
+ }
+
+ .project-links a {
+   display: inline-block;
+   margin-right: 10px;
+   color: #3498db;
+   text-decoration: none;
+   font-weight: bold;
+ }
+
+ .project-links a:hover {
+   text-decoration: underline;
+ }
+
+ .giticon {
+   width: 30px;
+   border-radius: 50%;
+ }
