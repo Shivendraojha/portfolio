@@ -28,7 +28,7 @@ const Contact = () => {
         <h2>Contact Information</h2>
         <p>Email: shivendraojha611@gmail.com</p>
         <p>Phone: +91 9044331920</p>
-        <p>Location: Ayodhya, INDIA</p>
+        <p>Location: Sultanpur UP</p>
       </section>
 
       <section className="contact-form">

@@ -1,5 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
+
+import {  Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './styles.css';
 import Navbar from './Components/Pages/Navbar'
 import About from './Components/About';
@@ -15,7 +18,7 @@ function App() {
   return (
     <>
 
-      <Router>
+      <HashRouter>
         <Navbar />
 
         <Routes>
@@ -29,7 +32,7 @@ function App() {
           <Route path="/portfolio/contact" exact element={<Contact />} />
 
         </Routes>
-      </Router> </>
+      </HashRouter> </>
   );
 }
 
