@@ -3,12 +3,19 @@ import certb from '../asset/certificates/ai.jpg'
 import certc from '../asset/certificates/ana.jpg'
 import certd from '../asset/certificates/ppcert.jpg'
 import certe from '../asset/certificates/pi.jpg'
+import certf from '../asset/certificates/keeshokala.png'
 import React from 'react';
 import '../CSS/Certification.css';
 
 const Certification = () => {
   const awardsCertificationsData = [
    {
+      title: 'WEB-DESIGN INTERN',
+      source:certf,
+      issuer: 'KEESHOKALA',
+      year: '2024',
+    },
+    {
       title: 'GOOGLE ANALYTICS',
       source:certc,
       issuer: 'GOOGLE',
