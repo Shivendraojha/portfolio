@@ -7,7 +7,7 @@ const Education = () => {
       institution: 'I.E.T. Dr. RML Avadh University Ayodhya U.P.',
       degree: 'Bachelor of Technology in Information Technology',
       graduationYear: '2024',
-      Score: '70 ap.',
+      Score: '69',
     },
     {
       institution: 'C.L. Inter College Chhitepatti Sultanpur UP',
@@ -15,6 +15,12 @@ const Education = () => {
       graduationYear: '2020',
       Score: '69',
     },
+    {
+      institution: 'C.L. Inter College Chhitepatti Sultanpur UP',
+      degree: 'Highschool {Science} - X',
+      graduationYear: '2018',
+      Score: '69',
+    }
     // Add more education entries as needed
   ];
 
